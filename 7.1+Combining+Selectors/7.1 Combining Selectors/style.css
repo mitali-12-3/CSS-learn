@@ -1,0 +1,31 @@
+/* Write your code here: */
+/*group h1 and h2*/
+h1,h2{
+    color: blueviolet;
+}
+/*div ke just inside p hai  ecause .done se sabh change gojayenge with same class*/
+
+
+div>p{
+    color: firebrick;
+}
+/*or*/
+.box>p{
+    color:aquamarine;
+}
+
+ul li{
+    color: blue;
+}
+/*or*/
+.box li{
+    color: violet;
+}
+/*chaining selector: increases specificity*/
+li.done{
+    color: seagreen;
+}
+/*combining combiners*/
+ul p.done{
+    font-size: 0.5rem;
+}
